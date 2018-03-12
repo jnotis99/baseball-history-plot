@@ -1,5 +1,4 @@
-##  Data Visualization (QSS17) Winter 2018
-##  Lab Session 3: Create Your own Data Visualization Project
+##  Extra-Base Hit and Strikeout frequency throughout Professional Baseball
 ##
 ##  Name: Joseph Notis
 ##  Date: February 17, 2018
@@ -102,4 +101,4 @@ ggplot(averages, aes(Year, Ratio)) +
         axis.text.x = element_text(size = 7)) +
   scale_size_manual(values = c(0.25, 2.5))
 
-ggsave("LabSession03/figures/LabSession03_figure1.pdf", width = 13, height = 7.5)
+ggsave("figures/MLB_History_Plot.pdf", width = 13, height = 7.5)
